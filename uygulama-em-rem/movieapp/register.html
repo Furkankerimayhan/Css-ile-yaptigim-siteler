@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/forms.css" />
+  </head>
+  <body id="body">
+    <header class="main-header">
+      <div class="container">
+        <a href="index.html" class="main-header__logo">MovieApp</a>
+        <nav class="main-nav">
+          <ul class="main-nav__items">
+            <li class="main-nav__item">
+              <a href="index.html">Filmler</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="index.html">Diziler</a>
+            </li>
+            <li class="main-nav__item main-nav__item--login">
+              <a class="btn btn-secondary" href="index.html">Login</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="signup-page">
+      <div class="container">
+        <h1 class="signup-title">Create Your Account</h1>
+        <form action="" class="signup-form">
+          <label for="" class="firstname">Adınız</label>
+          <input type="text" id="firstname" />
+
+          <label for="" class="lastname">Soyadınız</label>
+          <input type="text" id="lastname" />
+
+          <label for="" class="email">Email</label>
+          <input type="text" id="email" />
+
+          <label for="" class="password">Parola</label>
+          <input type="text" id="password" />
+
+          <label for="" class="gender">Cinsiyetiniz</label>
+          <select id="gender">
+            <option value="">Select</option>
+            <option value="">Kadın</option>
+            <option value="">Erkek</option>
+          </select>
+
+          <input type="checkbox" id="agree-terms" />
+          <label for="agree-terms"
+            >Kayıt için
+            <a href="#">Kurallar &amp; Şartlar </a>
+          </label>
+
+          <button type="submit" class="btn btn-primary">Kayıt Ol</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <ul id="footer-links">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Forum</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-2 nol">
+            <ul id="social-links">
+              <li><a href="" class="fab fa-facebook"></a></li>
+              <li><a href="" class="fab fa-twitter"></a></li>
+              <li><a href="" class="fab fa-instagram"></a></li>
+              <li><a href="https://furkankerimayhan.netlify.app/" class="fa-solid fa-link fa-beat-fade" style="color: #b85151;"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a href="#body" id="backtotop">
+      <i class="fas fas fa-chevron-circle-up"></i>
+    </a>
+  </body>
+</html>

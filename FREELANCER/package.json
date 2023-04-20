@@ -1,0 +1,16 @@
+{
+  "name": "sass-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -w scss -o public/css --output-style compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lightbox2": "^2.11.4",
+    "node-sass": "^8.0.0",
+    "owl.carousel": "^2.3.4"
+  }
+}
